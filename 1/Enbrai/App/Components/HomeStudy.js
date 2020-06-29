@@ -8,8 +8,6 @@ const HomeStudy = (props) => {
     const [isReady, setIsReady] = useState(false)
     const [dataSelected, setDataSelected] = useState([])
 
-    console.log(dataSelected)
-
     const handleDataSelected = (data) => {
         var selected = dataSelected
         var order = 0
